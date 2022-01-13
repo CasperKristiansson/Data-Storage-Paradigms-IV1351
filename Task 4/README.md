@@ -93,7 +93,25 @@ public void handleException(String errorMessage, Exception e) throws InstrumentD
 
 In figure 3.18 a sample printout of the program can be seen. It shows all the different commands that can be executed. That includes listing all commands, listing all instruments, renting, and terminating a rental.
 
-![](/Project%20Images/Sample%20printout%20Task%204.png)
+```
+> help
+list
+rent
+terminate
+help
+quit
+> list
+[]
+> list guitar
+[Instrument{brand='Rank', price=194', instrumentID='3'}, Instrument{brand='Gembucket', price=155', instrumentID='4'}, Instrument{brand='Pannier', price=146', instrumentID='21'}]
+> rent 3 15
+> list guitar
+[Instrument{brand='Gembucket', price=155', instrumentID='4'}, Instrument{brand='Pannier', price=146', instrumentID='21'}]
+> terminate 66
+> list guitar  
+[Instrument{brand='Gembucket', price=155', instrumentID='4'}, Instrument{brand='Pannier', price=146', instrumentID='21'}, Instrument{brand='Rank', price=194', instrumentID='3'}]
+> 
+```
 
 ## Discussion
 Because the author made sure in previously tasks that the database can perform all the required functionalities, implementing the command line interface and its program was simple. A user can list all instruments that is available and with a specific instrument type, it can rent an instrument and terminate an ongoing rental.
