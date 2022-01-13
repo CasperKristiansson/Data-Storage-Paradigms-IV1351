@@ -14,7 +14,9 @@ https://www.kth.se/student/kurser/kurs/IV1351
 ## Project Description, the Soundgood Music School
 The purpose is to facilitate information handling and business transactions for the Soundgood music school company, by developing a database which handles all the school's data and also an application that can handle some of the transactions.
 
-Building a database without structure will most likely end up failing or being extremely bad. In this project the author will structurally build a database for the Soundgood music school. The author solved the task by building a conceptual model, logical model and then translating it to SQL code to create the database itself. The database can perform various of different tasks such as managing the school´s instruments, lessons, students, and instructors. A command line interface will be developed to manage some aspects of the database. The author will be discussing and motivating each step of designing the database and how each step of the project was solved. 
+Building a database without structure will most likely end up failing or being extremely bad. In this project the author will structurally build a database for the Soundgood music school. The author solved the task by building a conceptual model, logical model and then translating it to SQL code to create the database itself. The database can perform various of different tasks such as managing the school´s instruments, lessons, students, and instructors. A command line interface will be developed to manage some aspects of the database. The author will be discussing and motivating each step of designing the database and how each step of the project was solved.
+
+***Under the main directory exists both a report and presentation of the project.***
 
 ### Intended Learning Outcomes
 #### Task 1, Conceptual Model
